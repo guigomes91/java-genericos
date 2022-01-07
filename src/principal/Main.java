@@ -31,5 +31,14 @@ public class Main {
         while(frutas.temItens()) {
             System.out.println(frutas.retira());
         }
+        
+        System.out.println(" --------------------------------------- ");
+        
+        String array[] = new String[2];
+        
+        array[0] = "Guilherme";
+        array[1] = "Viviane";
+        
+        ImprimeArray.imprimeArray(array);
     } 
 }
